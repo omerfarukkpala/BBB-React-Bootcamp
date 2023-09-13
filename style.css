@@ -24,32 +24,31 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Değiştirildi: 101vh'den 100vh'ye */
+  height: 101vh;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 2rem; /* Değiştirildi: 4rem'den 2rem'ye */
+  padding: 0 4rem;
 }
 
 .page h1 {
-  font-size: 2rem; /* Değiştirildi: 3rem'den 2rem'ye */
+  font-size: 3rem;
   line-height: 1.2;
   margin: 1rem;
 }
-
 .page p {
-  font-size: 1rem; /* Değiştirildi: 1.3rem'den 1rem'ye */
+  font-size: 1.3rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.5rem 1rem; /* Değiştirildi: 1rem'den 0.5rem'e */
+  padding: 1rem 2rem;
   background: #f4f4f4;
   color: #333;
   text-decoration: none;
   border: none;
   margin-top: 1rem;
-  font-size: 0.9rem; /* Değiştirildi: 1.1rem'den 0.9rem'a */
+  font-size: 1.1rem;
   transition: all 0.3s ease-in;
 }
 
@@ -66,12 +65,12 @@ body {
 
 /* Page Animation */
 #page-1 h1 {
-  transform: translateY(-800px); /* Değiştirildi: -1200px'den -800px'e */
+  transform: translateY(-1200px);
   animation: heading var(--animate-speed) forwards ease-in;
 }
 
 #page-1 p {
-  transform: translateX(-1000px); /* Değiştirildi: -1800px'den -1000px'e */
+  transform: translateX(-1800px);
   animation: text var(--animate-speed) forwards ease-in 1s;
 }
 
@@ -89,20 +88,38 @@ body {
 }
 
 .project-image {
-  max-width: 100%; /* Değiştirildi: Sabit genişlik ve yükseklik yerine yalnızca genişliği ayarla */
-  height: auto; /* Resim yüksekliğini otomatik olarak ayarla */
+  width: 700px; /* Resim genişliği */
+  height: 500px; /* Resim yüksekliği */
+  border: 1px solid #ccc;
+   /* Resim çerçevesi */ 
+  margin: 20px; 
+  /* Resimler arasındaki boşluk */ 
+  padding: 10px; 
+  /* Resimlerin içerisindeki boşluk */ 
+  box-shadow: 3px 3px 5px #888888;  
+  /* Resim gölgesi (isteğe bağlı) */ 
 }
 
 /* Ekstra küçük ekranlar (telefonlar) için stil ayarları */
 @media screen and (max-width: 480px) {
   .page h1 {
-    font-size: 1.5rem; /* Başlık yazı boyutunu küçült */
+    font-size: 0.5rem; /* Başlık yazı boyutunu küçül */
   }
   .page p {
-    font-size: 0.8rem; /* Paragraf yazı boyutunu küçült */
+    font-size: 1rem; /* Paragraf yazı boyutunu küçül*/
+  }
+  .project-image {
+    width: 100%; /* Resimleri ekrana sığacak şekilde ayarla*/
+    height: auto; /* Resim yüksekliğini otomatik olarak ayarla */
+    margin: 10px 0; /* Resimler arasındaki boşluğu azalt*/
+  }
+  .page {
+    padding: 0 1rem; /* Sayfa içeriğinin yan boşluğunu azalt*/
   }
   .btn {
-    padding: 0.3rem 0.6rem; /* Düğme boyutunu daha da küçült */
-    font-size: 0.7rem; /* Düğme yazı boyutunu küçült */
+    padding: 0.5rem 1rem; /* Düğme boyutunu küçült */
+    font-size: 0.9rem; /* Düğme yazı boyutunu küçült */
   }
 }
+
+
