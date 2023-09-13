@@ -24,32 +24,32 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  height: 101vh;
+  height: 100vh; /* Değiştirildi: 101vh'den 100vh'ye */
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 4rem;
+  padding: 0 2rem; /* Değiştirildi: 4rem'den 2rem'ye */
 }
 
 .page h1 {
-  font-size: 3rem;
+  font-size: 2rem; /* Değiştirildi: 3rem'den 2rem'ye */
   line-height: 1.2;
   margin: 1rem;
 }
 
 .page p {
-  font-size: 1.3rem;
+  font-size: 1rem; /* Değiştirildi: 1.3rem'den 1rem'ye */
 }
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem; /* Değiştirildi: 1rem'den 0.5rem'e */
   background: #f4f4f4;
   color: #333;
   text-decoration: none;
   border: none;
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem; /* Değiştirildi: 1.1rem'den 0.9rem'a */
   transition: all 0.3s ease-in;
 }
 
@@ -66,12 +66,12 @@ body {
 
 /* Page Animation */
 #page-1 h1 {
-  transform: translateY(-1200px);
+  transform: translateY(-800px); /* Değiştirildi: -1200px'den -800px'e */
   animation: heading var(--animate-speed) forwards ease-in;
 }
 
 #page-1 p {
-  transform: translateX(-1800px);
+  transform: translateX(-1000px); /* Değiştirildi: -1800px'den -1000px'e */
   animation: text var(--animate-speed) forwards ease-in 1s;
 }
 
@@ -89,28 +89,20 @@ body {
 }
 
 .project-image {
-  width: 1367px; /* Resim genişliği */
-  height: 660px; /* Resim yüksekliği */
+  max-width: 100%; /* Değiştirildi: Sabit genişlik ve yükseklik yerine yalnızca genişliği ayarla */
+  height: auto; /* Resim yüksekliğini otomatik olarak ayarla */
 }
 
 /* Ekstra küçük ekranlar (telefonlar) için stil ayarları */
 @media screen and (max-width: 480px) {
   .page h1 {
-    font-size: 0.5rem; /* Başlık yazı boyutunu küçült */
+    font-size: 1.5rem; /* Başlık yazı boyutunu küçült */
   }
   .page p {
-    font-size: 1rem; /* Paragraf yazı boyutunu küçült */
-  }
-  .project-image {
-    width: 100%; /* Resimleri ekrana sığacak şekilde ayarla */
-    height: auto; /* Resim yüksekliğini otomatik olarak ayarla */
-    margin: 10px 0; /* Resimler arasındaki boşluğu azalt */
-  }
-  .page {
-    padding: 0 1rem; /* Sayfa içeriğinin yan boşluğunu azalt */
+    font-size: 0.8rem; /* Paragraf yazı boyutunu küçült */
   }
   .btn {
-    padding: 0.5rem 1rem; /* Düğme boyutunu küçült */
-    font-size: 0.9rem; /* Düğme yazı boyutunu küçült */
+    padding: 0.3rem 0.6rem; /* Düğme boyutunu daha da küçült */
+    font-size: 0.7rem; /* Düğme yazı boyutunu küçült */
   }
 }
