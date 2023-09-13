@@ -99,6 +99,32 @@ body {
   box-shadow: 3px 3px 5px #888888;  
   /* Resim gölgesi (isteğe bağlı) */ 
 }
+.project-image1 {
+  width: 500px; /* Resim genişliği */
+  height: 300px; /* Resim yüksekliği */
+  border: 1px solid #ccc;
+   /* Resim çerçevesi */ 
+  margin: 20px; 
+  /* Resimler arasındaki boşluk */ 
+  padding: 10px; 
+  /* Resimlerin içerisindeki boşluk */ 
+  box-shadow: 3px 3px 5px #888888;  
+  /* Resim gölgesi (isteğe bağlı) */ 
+}
+.project-image2 {
+  width: 600px; /* Resim genişliği */
+  height: 400px; /* Resim yüksekliği */
+  border: 1px solid #ccc;
+   /* Resim çerçevesi */ 
+  margin: 20px; 
+  /* Resimler arasındaki boşluk */ 
+  padding: 10px; 
+  /* Resimlerin içerisindeki boşluk */ 
+  box-shadow: 3px 3px 5px #888888;  
+  /* Resim gölgesi (isteğe bağlı) */ 
+}
+
+
 
 /* Ekstra küçük ekranlar (telefonlar) için stil ayarları */
 @media screen and (max-width: 480px) {
