@@ -36,6 +36,7 @@ body {
   line-height: 1.2;
   margin: 1rem;
 }
+
 .page p {
   font-size: 1.3rem;
 }
@@ -88,53 +89,28 @@ body {
 }
 
 .project-image {
-  width: 980px; /* Resim genişliği */
+  width: 1367px; /* Resim genişliği */
   height: 660px; /* Resim yüksekliği */
-  /* border: 1px solid #ccc; Resim çerçevesi */
-  /* margin: 20px; Resimler arasındaki boşluk */
-  /* padding: 10px; Resimlerin içerisindeki boşluk */
-  /* box-shadow: 3px 3px 5px #888888; Resim gölgesi (isteğe bağlı) */
 }
 
 /* Ekstra küçük ekranlar (telefonlar) için stil ayarları */
 @media screen and (max-width: 480px) {
   .page h1 {
-    font-size: 0.5rem; /* Başlık yazı boyutunu küçül */
+    font-size: 0.5rem; /* Başlık yazı boyutunu küçült */
   }
   .page p {
-    font-size: 1rem; /* Paragraf yazı boyutunu küçül*/
+    font-size: 1rem; /* Paragraf yazı boyutunu küçült */
   }
   .project-image {
-    width: 100%; /* Resimleri ekrana sığacak şekilde ayarla*/
+    width: 100%; /* Resimleri ekrana sığacak şekilde ayarla */
     height: auto; /* Resim yüksekliğini otomatik olarak ayarla */
-    margin: 10px 0; /* Resimler arasındaki boşluğu azalt*/
+    margin: 10px 0; /* Resimler arasındaki boşluğu azalt */
   }
   .page {
-    padding: 0 1rem; /* Sayfa içeriğinin yan boşluğunu azalt*/
+    padding: 0 1rem; /* Sayfa içeriğinin yan boşluğunu azalt */
   }
   .btn {
     padding: 0.5rem 1rem; /* Düğme boyutunu küçült */
     font-size: 0.9rem; /* Düğme yazı boyutunu küçült */
   }
 }
-@media screen and (min-width: 768px) {
-  .page h1 {
-    font-size: 3rem; /* Başlık yazı boyutunu biraz büyütün */
-  }
-  .page p {
-    font-size: 1.2rem; /* Paragraf yazı boyutunu biraz büyütün */
-  }
-  .project-image {
-    width: 80%; /* Resimleri ekrana sığacak şekilde ayarlayın ve biraz daha büyük yapın */
-    height: auto; /* Resim yüksekliğini otomatik olarak ayarlayın */
-    margin: 20px 0; /* Resimler arasındaki boşluğu biraz artırın */
-  }
-  .page {
-    padding: 0 2rem; /* Sayfa içeriğinin yan boşluğunu biraz artırın */
-  }
-  .btn {
-    padding: 0.7rem 1.2rem; /* Düğme boyutunu biraz büyütün */
-    font-size: 1rem; /* Düğme yazı boyutunu biraz büyütün */
-  }
-}
-
