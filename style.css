@@ -117,4 +117,24 @@ body {
     font-size: 0.9rem; /* Düğme yazı boyutunu küçült */
   }
 }
+@media screen and (min-width: 768px) {
+  .page h1 {
+    font-size: 3rem; /* Başlık yazı boyutunu biraz büyütün */
+  }
+  .page p {
+    font-size: 1.2rem; /* Paragraf yazı boyutunu biraz büyütün */
+  }
+  .project-image {
+    width: 80%; /* Resimleri ekrana sığacak şekilde ayarlayın ve biraz daha büyük yapın */
+    height: auto; /* Resim yüksekliğini otomatik olarak ayarlayın */
+    margin: 20px 0; /* Resimler arasındaki boşluğu biraz artırın */
+  }
+  .page {
+    padding: 0 2rem; /* Sayfa içeriğinin yan boşluğunu biraz artırın */
+  }
+  .btn {
+    padding: 0.7rem 1.2rem; /* Düğme boyutunu biraz büyütün */
+    font-size: 1rem; /* Düğme yazı boyutunu biraz büyütün */
+  }
+}
 
