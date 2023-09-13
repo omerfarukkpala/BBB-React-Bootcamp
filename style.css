@@ -88,8 +88,8 @@ body {
 }
 
 .project-image {
-  width: 700px; /* Resim genişliği */
-  height: 500px; /* Resim yüksekliği */
+  width: 600px; /* Resim genişliği */
+  height: 400px; /* Resim yüksekliği */
   border: 1px solid #ccc;
    /* Resim çerçevesi */ 
   margin: 20px; 
