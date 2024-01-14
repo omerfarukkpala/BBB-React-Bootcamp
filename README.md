@@ -1,7 +1,7 @@
 # BBB-React-Bootcamp
 Code16 Project Presentation
-![bbb bootcamp](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/f401b63d-324d-4ca5-87b3-bb5ca09340ad)
-![book_anasayfa](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/4b19137f-de79-4e0d-856b-e4da8ce34f11)
+## Code16 Project Presentation![bbb bootcamp](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/f401b63d-324d-4ca5-87b3-bb5ca09340ad)
+## Book HomePage![book_anasayfa](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/4b19137f-de79-4e0d-856b-e4da8ce34f11)
 ![hakkimizda](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/e0c5cecf-94c1-441c-862b-1a06ccd7e428)
 ![iletisim](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/13813180-e149-45bb-a529-0f8dd4dead7b)
 ![kitapdetay](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/37ea8fc1-81ef-4d5c-a1c5-c5010d8c80ca)
