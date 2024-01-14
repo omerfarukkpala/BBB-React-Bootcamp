@@ -18,4 +18,4 @@ Code16 Project Presentation
 # Bursa Agriculture Market Contact![iletisim](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/45014247-7b88-47b2-ba43-dcb5f9554aa8)
 # Bursa Agriculture Market Login![girisyap](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/88a8b80f-42bb-4349-9a7b-9069bf8e8694)
 # Bursa Agriculture Market Basket Products![sepette ki ürünler](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/f90ba8cc-cae2-494c-8df2-4354ee68432d)
-# Bursa Agriculture Market Products Detai ![üründetayları](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/47095f8c-bdf1-4a39-9ba7-ac52a9726831)
+# Bursa Agriculture Market Products Detail ![üründetayları](https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/47095f8c-bdf1-4a39-9ba7-ac52a9726831)
