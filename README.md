@@ -1,7 +1,6 @@
 # BBB-React-Bootcamp 
 
 
-https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/dd30ea12-d7e7-4763-a232-a7698459e07f
 
 
 
