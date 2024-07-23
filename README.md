@@ -14,7 +14,7 @@ https://github.com/omerfarukkpala/BBB-React-Bootcamp/assets/101570820/04bd0536-a
 
 
 
-https://github.com/user-attachments/assets/9fd07a94-271f-43d3-b3df-ad7f1924c796
+https://github.com/user-attachments/assets/3e0b93dc-b55a-4e54-8a9c-7b9828ee59ba
 
 
 
